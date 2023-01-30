@@ -2,3 +2,4 @@ Flask==2.2.2
 langchain==0.0.74
 python-dotenv==0.21.1
 openai==0.26.4
+gunicorn==20.0.4
