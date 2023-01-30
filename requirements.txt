@@ -1,2 +1,2 @@
-Flask
-langchain
+Flask==2.2.2
+langchain=0.0.74
