@@ -39,3 +39,5 @@ def chat():
     global convo
     response = {'convo': conversation.predict(input=request.json['chat'])}
     return jsonify(response)
+
+
