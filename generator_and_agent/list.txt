@@ -1,0 +1,1 @@
+component: Linkbar - props: link (string), text (string) class(linkbar) -- add script tag for exports
