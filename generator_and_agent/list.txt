@@ -1,1 +1,2 @@
 component: Linkbar - props: link (string), text (string) class(linkbar) -- add script tag for exports
+component: Header - props: title (string), subtitle (string), image (string), class(header) -- add script tag for exports

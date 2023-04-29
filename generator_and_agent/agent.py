@@ -8,8 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-OPENAI_KEY = os.getenv("OPENAI_API_KEY") 
-
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 
 
 os.environ["SERPAPI_API_KEY"] = os.getenv("SERPAPI_API_KEY")
@@ -25,7 +24,5 @@ agent = initialize_agent(
 
 
 agent.run(
-    "I want to have a pool of ten friends who each put 5 dollars into a jar. I want 5 of them to split the money in the jar one week. Next week, follow the same pattern, but the other 5 friends split the money. How would this play out?"
+    "I set up a blog at https://www.surviving-ourselves.com. It was directed by myself, and written by AI. I want to know if the keywords I used are good enough to get me to the top of Google."
 )
-
-
